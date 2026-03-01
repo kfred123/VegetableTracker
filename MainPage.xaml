@@ -36,6 +36,18 @@
                 </controls:TachoGaugeView.GestureRecognizers>
             </controls:TachoGaugeView>
 
+            <Label
+                Text="{x:Static strings:AppResources.SeeDetails}"
+                FontSize="16"
+                TextColor="{AppThemeBinding Light=#4CAF50, Dark=#81C784}"
+                TextDecorations="Underline"
+                HorizontalOptions="Center"
+                Margin="0,8,0,0">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnSeeDetailsTapped" />
+                </Label.GestureRecognizers>
+            </Label>
+
             <Button
                 Text="{x:Static strings:AppResources.ShowSuggestions}"
                 FontSize="16"
@@ -43,7 +55,7 @@
                 BackgroundColor="#4CAF50"
                 CornerRadius="8"
                 HorizontalOptions="Center"
-                Margin="0,24,0,0"
+                Margin="0,40,0,0"
                 Clicked="OnShowSuggestionsTapped" />
         </VerticalStackLayout>
 
@@ -62,8 +74,11 @@
             VerticalOptions="End"
             HorizontalOptions="End"
             Margin="0,0,8,8"
-            Shadow="{Shadow Brush=Black, Offset='2,4', Radius=6, Opacity=0.3}"
-            Clicked="OnAddClicked" />
+            Clicked="OnAddClicked">
+            <Button.Shadow>
+                <Shadow Brush="Black" Offset="2,4" Radius="6" Opacity="0.3" />
+            </Button.Shadow>
+        </Button>
     </Grid>
 
 </ContentPage>

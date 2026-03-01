@@ -44,6 +44,11 @@ public class TachoGaugeDrawable : IDrawable
 
         var trackWidth = radius * 0.16f;
 
+        // Clip to only the upper half (above the gauge center line)
+        // so no arc is drawn below
+        canvas.SaveState();
+        canvas.ClipRectangle(0, 0, width, cy + trackWidth / 2f);
+
         // ── 1. Background track arc (subtle grey, upper semicircle) ──
         canvas.StrokeColor = TrackColor;
         canvas.StrokeSize = trackWidth;
@@ -64,7 +69,9 @@ public class TachoGaugeDrawable : IDrawable
         // ── 4. Needle ──
         DrawNeedle(canvas, cx, cy, radius, trackWidth);
 
-        // ── 5. Center hub ──
+        canvas.RestoreState();
+
+        // ── 5. Center hub (drawn outside clip so it's fully visible) ──
         var hubRadius = radius * 0.09f;
         canvas.FillColor = HubOuterColor;
         canvas.FillCircle(cx, cy, hubRadius);

@@ -42,7 +42,7 @@
 
   <!-- UI Strings -->
   <data name="AppTitle" xml:space="preserve">
-    <value>VegetableTracker</value>
+    <value>Pflanzenzähler</value>
   </data>
   <data name="HomeTab" xml:space="preserve">
     <value>Startseite</value>
@@ -104,6 +104,9 @@ Diese App hilft dir, deine Pflanzenvielfalt pro Woche zu tracken – und Schritt
   <data name="Vegetable_asparagus" xml:space="preserve">
     <value>Spargel</value>
   </data>
+  <data name="Vegetable_avocado" xml:space="preserve">
+    <value>Avocado</value>
+  </data>
   <data name="Vegetable_beet" xml:space="preserve">
     <value>Rote Bete</value>
   </data>
@@ -112,6 +115,9 @@ Diese App hilft dir, deine Pflanzenvielfalt pro Woche zu tracken – und Schritt
   </data>
   <data name="Vegetable_bok_choy" xml:space="preserve">
     <value>Pak Choi</value>
+  </data>
+  <data name="Vegetable_broad_beans" xml:space="preserve">
+    <value>Dicke Bohnen</value>
   </data>
   <data name="Vegetable_broccoli" xml:space="preserve">
     <value>Brokkoli</value>
@@ -137,6 +143,9 @@ Diese App hilft dir, deine Pflanzenvielfalt pro Woche zu tracken – und Schritt
   <data name="Vegetable_chard" xml:space="preserve">
     <value>Mangold</value>
   </data>
+  <data name="Vegetable_chives" xml:space="preserve">
+    <value>Schnittlauch</value>
+  </data>
   <data name="Vegetable_collard_greens" xml:space="preserve">
     <value>Blattkohl</value>
   </data>
@@ -145,6 +154,9 @@ Diese App hilft dir, deine Pflanzenvielfalt pro Woche zu tracken – und Schritt
   </data>
   <data name="Vegetable_cucumber" xml:space="preserve">
     <value>Gurke</value>
+  </data>
+  <data name="Vegetable_edamame" xml:space="preserve">
+    <value>Edamame</value>
   </data>
   <data name="Vegetable_eggplant" xml:space="preserve">
     <value>Aubergine</value>
@@ -158,8 +170,17 @@ Diese App hilft dir, deine Pflanzenvielfalt pro Woche zu tracken – und Schritt
   <data name="Vegetable_garlic" xml:space="preserve">
     <value>Knoblauch</value>
   </data>
+  <data name="Vegetable_ginger" xml:space="preserve">
+    <value>Ingwer</value>
+  </data>
   <data name="Vegetable_green_beans" xml:space="preserve">
     <value>Grüne Bohnen</value>
+  </data>
+  <data name="Vegetable_horseradish" xml:space="preserve">
+    <value>Meerrettich</value>
+  </data>
+  <data name="Vegetable_jerusalem_artichoke" xml:space="preserve">
+    <value>Topinambur</value>
   </data>
   <data name="Vegetable_kale" xml:space="preserve">
     <value>Grünkohl</value>
@@ -167,14 +188,26 @@ Diese App hilft dir, deine Pflanzenvielfalt pro Woche zu tracken – und Schritt
   <data name="Vegetable_kohlrabi" xml:space="preserve">
     <value>Kohlrabi</value>
   </data>
+  <data name="Vegetable_kombu" xml:space="preserve">
+    <value>Kombu</value>
+  </data>
   <data name="Vegetable_leek" xml:space="preserve">
     <value>Lauch</value>
   </data>
   <data name="Vegetable_lettuce" xml:space="preserve">
     <value>Kopfsalat</value>
   </data>
+  <data name="Vegetable_mung_beans" xml:space="preserve">
+    <value>Mungobohnen</value>
+  </data>
   <data name="Vegetable_mushroom" xml:space="preserve">
     <value>Pilz</value>
+  </data>
+  <data name="Vegetable_napa_cabbage" xml:space="preserve">
+    <value>Chinakohl</value>
+  </data>
+  <data name="Vegetable_nori" xml:space="preserve">
+    <value>Nori</value>
   </data>
   <data name="Vegetable_okra" xml:space="preserve">
     <value>Okra</value>
@@ -197,8 +230,23 @@ Diese App hilft dir, deine Pflanzenvielfalt pro Woche zu tracken – und Schritt
   <data name="Vegetable_radish" xml:space="preserve">
     <value>Radieschen</value>
   </data>
+  <data name="Vegetable_red_cabbage" xml:space="preserve">
+    <value>Rotkohl</value>
+  </data>
+  <data name="Vegetable_rhubarb" xml:space="preserve">
+    <value>Rhabarber</value>
+  </data>
+  <data name="Vegetable_romanesco" xml:space="preserve">
+    <value>Romanesco</value>
+  </data>
   <data name="Vegetable_rutabaga" xml:space="preserve">
     <value>Steckrübe</value>
+  </data>
+  <data name="Vegetable_salsify" xml:space="preserve">
+    <value>Schwarzwurzel</value>
+  </data>
+  <data name="Vegetable_savoy_cabbage" xml:space="preserve">
+    <value>Wirsing</value>
   </data>
   <data name="Vegetable_shallot" xml:space="preserve">
     <value>Schalotte</value>
@@ -209,6 +257,9 @@ Diese App hilft dir, deine Pflanzenvielfalt pro Woche zu tracken – und Schritt
   <data name="Vegetable_spinach" xml:space="preserve">
     <value>Spinat</value>
   </data>
+  <data name="Vegetable_spring_onion" xml:space="preserve">
+    <value>Frühlingszwiebel</value>
+  </data>
   <data name="Vegetable_sweet_potato" xml:space="preserve">
     <value>Süßkartoffel</value>
   </data>
@@ -218,8 +269,20 @@ Diese App hilft dir, deine Pflanzenvielfalt pro Woche zu tracken – und Schritt
   <data name="Vegetable_turnip" xml:space="preserve">
     <value>Rübe</value>
   </data>
+  <data name="Vegetable_wakame" xml:space="preserve">
+    <value>Wakame</value>
+  </data>
+  <data name="Vegetable_wasabi" xml:space="preserve">
+    <value>Wasabi</value>
+  </data>
+  <data name="Vegetable_water_chestnut" xml:space="preserve">
+    <value>Wasserkastanie</value>
+  </data>
   <data name="Vegetable_watercress" xml:space="preserve">
     <value>Brunnenkresse</value>
+  </data>
+  <data name="Vegetable_yam" xml:space="preserve">
+    <value>Yamswurzel</value>
   </data>
   <data name="Vegetable_zucchini" xml:space="preserve">
     <value>Zucchini</value>
@@ -244,5 +307,110 @@ Diese App hilft dir, deine Pflanzenvielfalt pro Woche zu tracken – und Schritt
   </data>
   <data name="Vegetable_jicama" xml:space="preserve">
     <value>Jicama</value>
+  </data>
+  <data name="Vegetable_apple" xml:space="preserve">
+    <value>Apfel</value>
+  </data>
+  <data name="Vegetable_apricot" xml:space="preserve">
+    <value>Aprikose</value>
+  </data>
+  <data name="Vegetable_banana" xml:space="preserve">
+    <value>Banane</value>
+  </data>
+  <data name="Vegetable_blackberry" xml:space="preserve">
+    <value>Brombeere</value>
+  </data>
+  <data name="Vegetable_blueberry" xml:space="preserve">
+    <value>Blaubeere</value>
+  </data>
+  <data name="Vegetable_cherry" xml:space="preserve">
+    <value>Kirsche</value>
+  </data>
+  <data name="Vegetable_coconut" xml:space="preserve">
+    <value>Kokosnuss</value>
+  </data>
+  <data name="Vegetable_cranberry" xml:space="preserve">
+    <value>Preiselbeere</value>
+  </data>
+  <data name="Vegetable_date" xml:space="preserve">
+    <value>Dattel</value>
+  </data>
+  <data name="Vegetable_dragon_fruit" xml:space="preserve">
+    <value>Drachenfrucht</value>
+  </data>
+  <data name="Vegetable_fig" xml:space="preserve">
+    <value>Feige</value>
+  </data>
+  <data name="Vegetable_grape" xml:space="preserve">
+    <value>Traube</value>
+  </data>
+  <data name="Vegetable_grapefruit" xml:space="preserve">
+    <value>Grapefruit</value>
+  </data>
+  <data name="Vegetable_guava" xml:space="preserve">
+    <value>Guave</value>
+  </data>
+  <data name="Vegetable_kiwi" xml:space="preserve">
+    <value>Kiwi</value>
+  </data>
+  <data name="Vegetable_lemon" xml:space="preserve">
+    <value>Zitrone</value>
+  </data>
+  <data name="Vegetable_lime" xml:space="preserve">
+    <value>Limette</value>
+  </data>
+  <data name="Vegetable_lychee" xml:space="preserve">
+    <value>Litschi</value>
+  </data>
+  <data name="Vegetable_mango" xml:space="preserve">
+    <value>Mango</value>
+  </data>
+  <data name="Vegetable_melon" xml:space="preserve">
+    <value>Melone</value>
+  </data>
+  <data name="Vegetable_nectarine" xml:space="preserve">
+    <value>Nektarine</value>
+  </data>
+  <data name="Vegetable_orange" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="Vegetable_papaya" xml:space="preserve">
+    <value>Papaya</value>
+  </data>
+  <data name="Vegetable_passion_fruit" xml:space="preserve">
+    <value>Passionsfrucht</value>
+  </data>
+  <data name="Vegetable_peach" xml:space="preserve">
+    <value>Pfirsich</value>
+  </data>
+  <data name="Vegetable_pear" xml:space="preserve">
+    <value>Birne</value>
+  </data>
+  <data name="Vegetable_persimmon" xml:space="preserve">
+    <value>Kaki</value>
+  </data>
+  <data name="Vegetable_pineapple" xml:space="preserve">
+    <value>Ananas</value>
+  </data>
+  <data name="Vegetable_plum" xml:space="preserve">
+    <value>Pflaume</value>
+  </data>
+  <data name="Vegetable_pomegranate" xml:space="preserve">
+    <value>Granatapfel</value>
+  </data>
+  <data name="Vegetable_raspberry" xml:space="preserve">
+    <value>Himbeere</value>
+  </data>
+  <data name="Vegetable_star_fruit" xml:space="preserve">
+    <value>Sternfrucht</value>
+  </data>
+  <data name="Vegetable_strawberry" xml:space="preserve">
+    <value>Erdbeere</value>
+  </data>
+  <data name="Vegetable_tangerine" xml:space="preserve">
+    <value>Mandarine</value>
+  </data>
+  <data name="Vegetable_watermelon" xml:space="preserve">
+    <value>Wassermelone</value>
   </data>
 </root>

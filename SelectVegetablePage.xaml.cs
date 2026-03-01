@@ -13,16 +13,26 @@ public partial class SelectVegetablePage : ContentPage
 
     private static readonly string[] VegetableIds =
     [
-        "artichoke", "arugula", "asparagus", "beet", "bell_pepper",
-        "bok_choy", "broccoli", "brussels_sprouts", "butternut_squash", "cabbage",
-        "carrot", "cauliflower", "celery", "chard", "collard_greens",
-        "corn", "cucumber", "eggplant", "endive", "fennel",
-        "garlic", "green_beans", "kale", "kohlrabi", "leek",
-        "lettuce", "mushroom", "okra", "onion", "parsnip",
-        "peas", "potato", "pumpkin", "radish", "rutabaga",
-        "shallot", "snap_peas", "spinach", "sweet_potato", "tomato",
-        "turnip", "watercress", "zucchini", "radicchio", "daikon",
-        "bamboo_shoots", "bean_sprouts", "celeriac", "chayote", "jicama"
+        // Vegetables
+        "artichoke", "arugula", "asparagus", "avocado", "beet", "bell_pepper",
+        "bok_choy", "broad_beans", "broccoli", "brussels_sprouts", "butternut_squash", "cabbage",
+        "carrot", "cauliflower", "celery", "chard", "chives", "collard_greens",
+        "corn", "cucumber", "edamame", "eggplant", "endive", "fennel",
+        "garlic", "ginger", "green_beans", "horseradish", "jerusalem_artichoke",
+        "kale", "kohlrabi", "kombu", "leek", "lettuce", "mung_beans", "mushroom",
+        "napa_cabbage", "nori", "okra", "onion", "parsnip", "peas",
+        "potato", "pumpkin", "radish", "red_cabbage", "rhubarb",
+        "romanesco", "rutabaga", "salsify", "savoy_cabbage", "shallot",
+        "snap_peas", "spinach", "spring_onion", "sweet_potato", "tomato",
+        "turnip", "wakame", "wasabi", "water_chestnut", "watercress", "yam", "zucchini", "radicchio", "daikon",
+        "bamboo_shoots", "bean_sprouts", "celeriac", "chayote", "jicama",
+        // Fruits
+        "apple", "apricot", "banana", "blackberry", "blueberry",
+        "cherry", "coconut", "cranberry", "date", "dragon_fruit", "fig", "grape", "grapefruit",
+        "guava", "kiwi", "lemon", "lime", "lychee", "mango", "melon", "nectarine",
+        "orange", "papaya", "passion_fruit", "peach", "pear", "persimmon", "pineapple",
+        "plum", "pomegranate", "raspberry", "star_fruit", "strawberry", "tangerine",
+        "watermelon"
     ];
 
     public SelectVegetablePage(DatabaseService databaseService)

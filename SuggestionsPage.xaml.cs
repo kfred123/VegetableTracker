@@ -52,16 +52,26 @@ public partial class SuggestionsPage : ContentPage
         // Predefined
         var predefinedIds = new[]
         {
+            // Vegetables
             "artichoke", "arugula", "asparagus", "beet", "bell_pepper",
             "bok_choy", "broccoli", "brussels_sprouts", "butternut_squash", "cabbage",
             "carrot", "cauliflower", "celery", "chard", "collard_greens",
             "corn", "cucumber", "eggplant", "endive", "fennel",
-            "garlic", "green_beans", "kale", "kohlrabi", "leek",
-            "lettuce", "mushroom", "okra", "onion", "parsnip",
-            "peas", "potato", "pumpkin", "radish", "rutabaga",
-            "shallot", "snap_peas", "spinach", "sweet_potato", "tomato",
+            "garlic", "ginger", "green_beans", "horseradish", "jerusalem_artichoke",
+            "kale", "kohlrabi", "leek", "lettuce", "mushroom",
+            "napa_cabbage", "okra", "onion", "parsnip", "peas",
+            "potato", "pumpkin", "radish", "red_cabbage", "rhubarb",
+            "romanesco", "rutabaga", "salsify", "savoy_cabbage", "shallot",
+            "snap_peas", "spinach", "spring_onion", "sweet_potato", "tomato",
             "turnip", "watercress", "zucchini", "radicchio", "daikon",
-            "bamboo_shoots", "bean_sprouts", "celeriac", "chayote", "jicama"
+            "bamboo_shoots", "bean_sprouts", "celeriac", "chayote", "jicama",
+            // Fruits
+            "apple", "apricot", "banana", "blackberry", "blueberry",
+            "cherry", "cranberry", "fig", "grape", "grapefruit",
+            "kiwi", "lemon", "lime", "mango", "nectarine",
+            "orange", "papaya", "peach", "pear", "pineapple",
+            "plum", "pomegranate", "raspberry", "strawberry", "tangerine",
+            "watermelon"
         };
 
         foreach (var id in predefinedIds)

@@ -46,8 +46,11 @@
                 VerticalOptions="End"
                 HorizontalOptions="End"
                 Margin="0,0,8,8"
-                Shadow="{Shadow Brush=Black, Offset='2,4', Radius=6, Opacity=0.3}"
-                Clicked="OnAddCustomClicked" />
+                Clicked="OnAddCustomClicked">
+                <Button.Shadow>
+                    <Shadow Brush="Black" Offset="2,4" Radius="6" Opacity="0.3" />
+                </Button.Shadow>
+            </Button>
         </Grid>
 
     </Grid>
