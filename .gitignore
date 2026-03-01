@@ -1,0 +1,28 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+## IDE
+.vs/
+.idea/
+*.sln.docstates
+launchSettings.json
+
+## MAUI
+*.ipa
+*.apk
+*.aab
+*.app
+*.xcarchive
+
+## OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+## Build output
+build_output.txt

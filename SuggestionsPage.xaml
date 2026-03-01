@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:strings="clr-namespace:VegetableTracker.Resources.Strings"
+             x:Class="VegetableTracker.SuggestionsPage"
+             Title="{x:Static strings:AppResources.SuggestionsTitle}">
+
+    <Grid RowDefinitions="*" Padding="16">
+
+        <CollectionView
+            x:Name="SuggestionsList"
+            Grid.Row="0">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="16,10" ColumnDefinitions="*,Auto">
+                        <Label
+                            Text="{Binding DisplayName}"
+                            FontSize="18"
+                            VerticalOptions="Center"
+                            Grid.Column="0" />
+                        <Button
+                            Text="+"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            TextColor="White"
+                            BackgroundColor="#4CAF50"
+                            WidthRequest="40"
+                            HeightRequest="40"
+                            CornerRadius="20"
+                            Padding="0"
+                            VerticalOptions="Center"
+                            Grid.Column="1"
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.AddCommand}"
+                            CommandParameter="{Binding .}" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:strings="clr-namespace:VegetableTracker.Resources.Strings"
+             x:Class="VegetableTracker.DetailsPage"
+             Title="{x:Static strings:AppResources.DetailsTitle}">
+
+    <Grid RowDefinitions="*" Padding="16">
+
+        <!-- Consumed vegetables list -->
+        <CollectionView
+            x:Name="ConsumedList"
+            Grid.Row="0">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="16,10" ColumnDefinitions="*,Auto">
+                        <Label
+                            Text="{Binding DisplayName}"
+                            FontSize="18"
+                            VerticalOptions="Center"
+                            Grid.Column="0" />
+                        <Label
+                            Text="{Binding DateText}"
+                            FontSize="14"
+                            TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray200}}"
+                            VerticalOptions="Center"
+                            Grid.Column="1" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </Grid>
+
+</ContentPage>

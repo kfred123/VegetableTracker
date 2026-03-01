@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="0" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- UI Strings -->
+  <data name="AppTitle" xml:space="preserve">
+    <value>VegetableTracker</value>
+  </data>
+  <data name="HomeTab" xml:space="preserve">
+    <value>Startseite</value>
+  </data>
+  <data name="Last7Days" xml:space="preserve">
+    <value>Letzte 7 Tage</value>
+  </data>
+  <data name="ProgressFormat" xml:space="preserve">
+    <value>{0} / {1} Gemüsesorten</value>
+  </data>
+  <data name="IntroText" xml:space="preserve">
+    <value>Das American Gut Project untersuchte Stuhlproben von über 10.000 Menschen weltweit und fand heraus: Teilnehmende, die mehr als 30 verschiedene pflanzliche Lebensmittel pro Woche aßen, hatten eine deutlich vielfältigere Darmflora als diejenigen, die nur zehn verschiedene Pflanzen zu sich nahmen. science.ORF.at
+
+Jede Pflanze liefert einzigartige Ballaststoffe und sekundäre Pflanzenstoffe – das Futter für unterschiedliche Bakterienstämme in deinem Darm. Je bunter dein Teller, desto besser deine Darmflora.
+
+Diese App hilft dir, deine Pflanzenvielfalt pro Woche zu tracken – und Schritt für Schritt zu steigern. Tracke jetzt dein erstes Gemüse.</value>
+  </data>
+  <data name="SelectVegetableTitle" xml:space="preserve">
+    <value>Gemüse auswählen</value>
+  </data>
+  <data name="SearchPlaceholder" xml:space="preserve">
+    <value>Gemüse suchen...</value>
+  </data>
+  <data name="SeeDetails" xml:space="preserve">
+    <value>Details anzeigen</value>
+  </data>
+  <data name="DetailsTitle" xml:space="preserve">
+    <value>Letzte 7 Tage — Details</value>
+  </data>
+  <data name="AddCustomVegetable" xml:space="preserve">
+    <value>Eigenes Gemüse hinzufügen</value>
+  </data>
+  <data name="EnterVegetableName" xml:space="preserve">
+    <value>Gemüsename eingeben</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="VegetableAlreadyExists" xml:space="preserve">
+    <value>Ein Gemüse mit diesem Namen existiert bereits.</value>
+  </data>
+  <data name="ShowSuggestions" xml:space="preserve">
+    <value>Vorschläge anzeigen</value>
+  </data>
+  <data name="SuggestionsTitle" xml:space="preserve">
+    <value>Vorschläge</value>
+  </data>
+
+  <!-- Vegetable Names -->
+  <data name="Vegetable_artichoke" xml:space="preserve">
+    <value>Artischocke</value>
+  </data>
+  <data name="Vegetable_arugula" xml:space="preserve">
+    <value>Rucola</value>
+  </data>
+  <data name="Vegetable_asparagus" xml:space="preserve">
+    <value>Spargel</value>
+  </data>
+  <data name="Vegetable_beet" xml:space="preserve">
+    <value>Rote Bete</value>
+  </data>
+  <data name="Vegetable_bell_pepper" xml:space="preserve">
+    <value>Paprika</value>
+  </data>
+  <data name="Vegetable_bok_choy" xml:space="preserve">
+    <value>Pak Choi</value>
+  </data>
+  <data name="Vegetable_broccoli" xml:space="preserve">
+    <value>Brokkoli</value>
+  </data>
+  <data name="Vegetable_brussels_sprouts" xml:space="preserve">
+    <value>Rosenkohl</value>
+  </data>
+  <data name="Vegetable_butternut_squash" xml:space="preserve">
+    <value>Butternut-Kürbis</value>
+  </data>
+  <data name="Vegetable_cabbage" xml:space="preserve">
+    <value>Kohl</value>
+  </data>
+  <data name="Vegetable_carrot" xml:space="preserve">
+    <value>Karotte</value>
+  </data>
+  <data name="Vegetable_cauliflower" xml:space="preserve">
+    <value>Blumenkohl</value>
+  </data>
+  <data name="Vegetable_celery" xml:space="preserve">
+    <value>Sellerie</value>
+  </data>
+  <data name="Vegetable_chard" xml:space="preserve">
+    <value>Mangold</value>
+  </data>
+  <data name="Vegetable_collard_greens" xml:space="preserve">
+    <value>Blattkohl</value>
+  </data>
+  <data name="Vegetable_corn" xml:space="preserve">
+    <value>Mais</value>
+  </data>
+  <data name="Vegetable_cucumber" xml:space="preserve">
+    <value>Gurke</value>
+  </data>
+  <data name="Vegetable_eggplant" xml:space="preserve">
+    <value>Aubergine</value>
+  </data>
+  <data name="Vegetable_endive" xml:space="preserve">
+    <value>Endivie</value>
+  </data>
+  <data name="Vegetable_fennel" xml:space="preserve">
+    <value>Fenchel</value>
+  </data>
+  <data name="Vegetable_garlic" xml:space="preserve">
+    <value>Knoblauch</value>
+  </data>
+  <data name="Vegetable_green_beans" xml:space="preserve">
+    <value>Grüne Bohnen</value>
+  </data>
+  <data name="Vegetable_kale" xml:space="preserve">
+    <value>Grünkohl</value>
+  </data>
+  <data name="Vegetable_kohlrabi" xml:space="preserve">
+    <value>Kohlrabi</value>
+  </data>
+  <data name="Vegetable_leek" xml:space="preserve">
+    <value>Lauch</value>
+  </data>
+  <data name="Vegetable_lettuce" xml:space="preserve">
+    <value>Kopfsalat</value>
+  </data>
+  <data name="Vegetable_mushroom" xml:space="preserve">
+    <value>Pilz</value>
+  </data>
+  <data name="Vegetable_okra" xml:space="preserve">
+    <value>Okra</value>
+  </data>
+  <data name="Vegetable_onion" xml:space="preserve">
+    <value>Zwiebel</value>
+  </data>
+  <data name="Vegetable_parsnip" xml:space="preserve">
+    <value>Pastinake</value>
+  </data>
+  <data name="Vegetable_peas" xml:space="preserve">
+    <value>Erbsen</value>
+  </data>
+  <data name="Vegetable_potato" xml:space="preserve">
+    <value>Kartoffel</value>
+  </data>
+  <data name="Vegetable_pumpkin" xml:space="preserve">
+    <value>Kürbis</value>
+  </data>
+  <data name="Vegetable_radish" xml:space="preserve">
+    <value>Radieschen</value>
+  </data>
+  <data name="Vegetable_rutabaga" xml:space="preserve">
+    <value>Steckrübe</value>
+  </data>
+  <data name="Vegetable_shallot" xml:space="preserve">
+    <value>Schalotte</value>
+  </data>
+  <data name="Vegetable_snap_peas" xml:space="preserve">
+    <value>Zuckerschoten</value>
+  </data>
+  <data name="Vegetable_spinach" xml:space="preserve">
+    <value>Spinat</value>
+  </data>
+  <data name="Vegetable_sweet_potato" xml:space="preserve">
+    <value>Süßkartoffel</value>
+  </data>
+  <data name="Vegetable_tomato" xml:space="preserve">
+    <value>Tomate</value>
+  </data>
+  <data name="Vegetable_turnip" xml:space="preserve">
+    <value>Rübe</value>
+  </data>
+  <data name="Vegetable_watercress" xml:space="preserve">
+    <value>Brunnenkresse</value>
+  </data>
+  <data name="Vegetable_zucchini" xml:space="preserve">
+    <value>Zucchini</value>
+  </data>
+  <data name="Vegetable_radicchio" xml:space="preserve">
+    <value>Radicchio</value>
+  </data>
+  <data name="Vegetable_daikon" xml:space="preserve">
+    <value>Rettich</value>
+  </data>
+  <data name="Vegetable_bamboo_shoots" xml:space="preserve">
+    <value>Bambussprossen</value>
+  </data>
+  <data name="Vegetable_bean_sprouts" xml:space="preserve">
+    <value>Sojasprossen</value>
+  </data>
+  <data name="Vegetable_celeriac" xml:space="preserve">
+    <value>Knollensellerie</value>
+  </data>
+  <data name="Vegetable_chayote" xml:space="preserve">
+    <value>Chayote</value>
+  </data>
+  <data name="Vegetable_jicama" xml:space="preserve">
+    <value>Jicama</value>
+  </data>
+</root>

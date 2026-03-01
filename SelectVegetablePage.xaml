@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:strings="clr-namespace:VegetableTracker.Resources.Strings"
+             x:Class="VegetableTracker.SelectVegetablePage"
+             Title="{x:Static strings:AppResources.SelectVegetableTitle}">
+
+    <Grid RowDefinitions="Auto,*" Padding="16">
+
+        <!-- Search Bar -->
+        <SearchBar
+            x:Name="VegetableSearchBar"
+            Placeholder="{x:Static strings:AppResources.SearchPlaceholder}"
+            TextChanged="OnSearchTextChanged"
+            Grid.Row="0" />
+
+        <!-- Vegetable List + Add Button overlay -->
+        <Grid Grid.Row="1">
+            <CollectionView
+                x:Name="VegetableList"
+                SelectionMode="Single"
+                SelectionChanged="OnVegetableSelected">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="16,12">
+                            <Label
+                                Text="{Binding DisplayName}"
+                                FontSize="18"
+                                VerticalOptions="Center" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Add Custom Vegetable FAB -->
+            <Button
+                x:Name="AddCustomButton"
+                Text="+"
+                FontSize="32"
+                FontAttributes="Bold"
+                TextColor="White"
+                BackgroundColor="#4CAF50"
+                WidthRequest="64"
+                HeightRequest="64"
+                CornerRadius="32"
+                VerticalOptions="End"
+                HorizontalOptions="End"
+                Margin="0,0,8,8"
+                Shadow="{Shadow Brush=Black, Offset='2,4', Radius=6, Opacity=0.3}"
+                Clicked="OnAddCustomClicked" />
+        </Grid>
+
+    </Grid>
+
+</ContentPage>
+

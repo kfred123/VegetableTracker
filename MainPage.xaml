@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:strings="clr-namespace:VegetableTracker.Resources.Strings"
+             xmlns:controls="clr-namespace:VegetableTracker.Controls"
+             x:Class="VegetableTracker.MainPage"
+             Title="{x:Static strings:AppResources.AppTitle}">
+
+    <Grid RowDefinitions="Auto,*" Padding="16,24,16,0">
+
+        <!-- Intro Text (shown when 0 vegetables tracked) -->
+        <Label
+            x:Name="IntroLabel"
+            Grid.Row="0"
+            IsVisible="True"
+            Text="{x:Static strings:AppResources.IntroText}"
+            FontSize="16"
+            LineBreakMode="WordWrap"
+            Margin="0,0,0,16"
+            TextColor="{AppThemeBinding Light={StaticResource Gray600}, Dark={StaticResource Gray200}}" />
+
+        <!-- Weekly Progress Section (hidden when 0) -->
+        <VerticalStackLayout x:Name="ProgressSection" Grid.Row="0" Spacing="8" Margin="0,0,0,16" IsVisible="False">
+            <Label
+                Text="{x:Static strings:AppResources.Last7Days}"
+                FontSize="22"
+                FontAttributes="Bold"
+                TextColor="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
+
+            <controls:TachoGaugeView
+                x:Name="TachoGauge"
+                MaxValue="30"
+                HorizontalOptions="Center">
+                <controls:TachoGaugeView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnSeeDetailsTapped" />
+                </controls:TachoGaugeView.GestureRecognizers>
+            </controls:TachoGaugeView>
+
+            <Button
+                Text="{x:Static strings:AppResources.ShowSuggestions}"
+                FontSize="16"
+                TextColor="White"
+                BackgroundColor="#4CAF50"
+                CornerRadius="8"
+                HorizontalOptions="Center"
+                Margin="0,24,0,0"
+                Clicked="OnShowSuggestionsTapped" />
+        </VerticalStackLayout>
+
+        <!-- Floating Action Button -->
+        <Button
+            x:Name="AddButton"
+            Grid.Row="1"
+            Text="+"
+            FontSize="32"
+            FontAttributes="Bold"
+            TextColor="White"
+            BackgroundColor="#4CAF50"
+            WidthRequest="64"
+            HeightRequest="64"
+            CornerRadius="32"
+            VerticalOptions="End"
+            HorizontalOptions="End"
+            Margin="0,0,8,8"
+            Shadow="{Shadow Brush=Black, Offset='2,4', Radius=6, Opacity=0.3}"
+            Clicked="OnAddClicked" />
+    </Grid>
+
+</ContentPage>
